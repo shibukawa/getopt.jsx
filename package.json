@@ -1,0 +1,36 @@
+{
+  "name": "getopt.jsx",
+  "version": "0.1.0",
+  "description": "JSX version of node-getopt",
+  "scripts": {
+    "build": "grunt build",
+    "test": "grunt test",
+    "doc": "grunt doc"
+  },
+  "engines" : { "node" : ">=0.8.0" },
+  "keywords": [
+    "jsx",
+    "lib"
+  ],
+  "main": "./lib/getopt.jsx",
+  "homepage": "https://github.com/shibukawa/getopt.jsx",
+  "bugs": {
+    "url": "https://github.com/shibukawa/getopt.jsx.git/issues"
+  },
+  "directories": {
+    "doc": "./doc",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shibukawa/getopt.jsx.git"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1",
+    "grunt-jsx": "~0.0.4"
+  },
+  "author": "shibukawa",
+  "license": "MIT"
+}
