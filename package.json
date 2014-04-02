@@ -1,6 +1,6 @@
 {
   "name": "getopt.jsx",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "JSX version of node-getopt",
   "scripts": {
     "build": "./node_modules/.bin/grunt build",
@@ -12,7 +12,7 @@
     "jsx",
     "lib"
   ],
-  "main": "./lib/getopt.jsx",
+  "main": "./src/getopt.jsx",
   "homepage": "https://github.com/shibukawa/getopt.jsx",
   "bugs": {
     "url": "https://github.com/shibukawa/getopt.jsx.git/issues"

@@ -1,6 +1,10 @@
 Change History
 =================
 
+## 0.2.1 (2014/04/01)
+
+* Fix package.json
+
 ## 0.2.0 (2013/11/07)
 
 * Enable npm test/build command

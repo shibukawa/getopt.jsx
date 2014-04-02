@@ -68,28 +68,11 @@ It provides command line parsing feature to your cool JSX program.
 Installation
 ---------------
 
-```sh
-$ npm install getopt.jsx
-```
-
 If you want to use this library from other project, install like the following:
 
 ```sh
 $ npm install getopt.jsx --save-dev
 ```
-
-or add like these lines to your parent project's `package.json`:
-
-```js
-   devDependencies: {
-       "getopt.jsx": "~0.1.0"
-   },
-   peerDepenencies: {
-       "getopt.jsx": "~0.1.0"
-   }
-```
-
-And add `node_modules/getopt.jsx/src` as a search path.
 
 API Reference
 ------------------
@@ -108,7 +91,7 @@ API Reference
     parameter is set to `optarg` (see case sentenses of the above sample).
 
     If needed parameter is not provided, `error` flag become `true`.
-    
+
     Extra arguments are set to option (see default block of the above sample).
 
 Option Pattern
